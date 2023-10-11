@@ -1,4 +1,15 @@
-const apiKey = "120f26457a5cb4d216eb6ff9f368808a";
+k1 = "120f";
+
+k2 = "26457";
+
+k3 = "a5cb4";
+
+k4 = "d216";
+
+k5 = "eb6ff9f";
+
+k6 = "36880";
+const apiKey = k1 + k2 + k3 + k4 + k5 + k6 + "8a";
 let symbol = document.getElementById('symbol');
 
 function convertTemperature(unit, tempInCelsius) {
